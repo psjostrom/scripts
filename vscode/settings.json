@@ -1,0 +1,94 @@
+{
+  "telemetry.enableTelemetry": false,
+  "editor.suggestSelection": "first",
+  "editor.fontSize": 18,
+  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.visible": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.confirmDelete": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.hovers.avatars": false,
+  "gitlens.hovers.currentLine.changes": false,
+  "gitlens.hovers.annotations.changes": false,
+  "gitlens.blame.avatars": false,
+  "gitlens.blame.compact": false,
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "push",
+  "git.autofetch": true,
+  "jestrunner.configPath": "client/jest.config.js",
+  "git.confirmSync": false,
+  "files.trimTrailingWhitespace": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "One Dark italic",
+        "scope": [
+          "comment",
+          "entity.other.attribute-name",
+          "keyword",
+          "markup.underline.link",
+          "storage.modifier",
+          "storage.type",
+          "string.url",
+          "variable.language.super",
+          "variable.language.this"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "One Dark italic reset",
+        "scope": [
+          "keyword.operator",
+          "keyword.other.type",
+          "storage.modifier.import",
+          "storage.modifier.package",
+          "storage.type.built-in",
+          "storage.type.function.arrow",
+          "storage.type.generic",
+          "storage.type.java",
+          "storage.type.primitive"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "gitlens.keymap": "alternate",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.allowForcePush": true,
+  "debug.onTaskErrors": "showErrors",
+  "git.confirmForcePush": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "search.searchEditor.reusePriorSearchConfiguration": true,
+  "window.openFilesInNewWindow": "on",
+  "references.preferredLocation": "view",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "search.searchEditor.doubleClickBehaviour": "openLocationToSide",
+  "window.openFoldersInNewWindow": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.accessibilitySupport": "off",
+  "workbench.editor.mouseBackForwardToNavigate": true,
+  "editor.suggest.preview": true,
+  "editor.inlineSuggest.enabled": true,
+  "workbench.editor.untitled.hint": "hidden",
+  "turboConsoleLog.includeFileNameAndLineNum": false,
+  "turboConsoleLog.insertEnclosingClass": false,
+  "turboConsoleLog.insertEnclosingFunction": false,
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false
+  },
+  "extensions.ignoreRecommendations": true
+}

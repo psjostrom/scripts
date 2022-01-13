@@ -172,5 +172,9 @@ function json() {
   node -e "console.log(JSON.stringify(JSON.parse(process.argv[1]), null, 3));" \ $1;
 }
 
+function commit() {
+  git add . && git commit -am $1;
+}
+
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
